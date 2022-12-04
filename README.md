@@ -1,2 +1,2 @@
-# Portfolio
-A basic portfolio website built using bootstrap
+#Background
+A basic website for a sustainable brand named "Carpe Diem"
