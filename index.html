@@ -27,7 +27,7 @@
     </nav>
 
     <!-- Carousel -->
-    <div id="slide" class="carousel slide" dats-bs-ride="true">
+    <div id="slide" class="carousel carousel-dark slide" dats-bs-ride="true">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#slide" data-bs-slide-to="0" aria-label="Slide 1" class="active"></button>
             <button type="button" data-bs-target="#slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -36,19 +36,19 @@
             <button type="button" data-bs-target="#slide" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="1000">
                 <img src="static/1.jpg" alt="Carpe Diem" class="d-block w-100"/>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1000">
                 <img src="static/2.jpg" alt="Our Motto: Building a sustainable and ethical business centered around environmental justice" class="d-block w-100"/>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1000">
                 <img src="static/3.jpg" alt="What we offer" class="d-block w-100"/>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1000">
                 <img src="static/4.jpg" alt="Testimonials" class="d-block w-100"/>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1000">
                 <img src="static/5.jpg" alt="Contact" class="d-block w-100"/>
             </div>
         </div>
@@ -57,7 +57,7 @@
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
-            <span class="carousle-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
@@ -90,7 +90,7 @@
 
     <!-- Cards-->
     <div data-bs-spy="scroll" data-bs-target="#product" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
-        <a href="soaps.html" style="text-decoration: none; color:black;"><h3 style="padding-left: 15px; padding-top: 15px;" id="soap"><center>Soaps ></center></h3></a>
+        <a href="soaps.html" style="text-decoration: none; color:black;"><h3 style="padding-left: 15px; padding-top: 15px;"><center>Soaps ></center></h3></a>
         <div class="row" style="padding-top: 20px;">
             <div class="col-md-4">
                 <div class="card">
@@ -122,7 +122,7 @@
         </div>
 
     <!-- cards - row 2 -->
-        <div class="row" style="padding-top: 20px;">
+        <div class="row" style="padding-top: 20px;" id="soap">
             <div class="col-md-4">
                 <div class="card">
                     <img src="static/soap4.jpg" class="card-img-top" alt="" style="height: 300px; width: 150px px; padding: 15px;"/>
@@ -152,7 +152,7 @@
             </div>
         </div>
         <!--Row 3-->
-        <h3 style="padding-left: 15px; padding-top: 15px;" id="shampoo"><center>Shampoos and oils > ></center></h3></a>
+        <h3 style="padding-left: 15px; padding-top: 15px;"><center>Shampoos and oils > ></center></h3></a>
         <div class="row" style="padding-top: 20px;">
             <div class="col-md-4">
                 <div class="card">
@@ -173,7 +173,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" id="shampoo">
                     <img src="static/shampoo3.jpg" class="card-img-top" alt="" style="height:300px; width: 150px px; padding: 15px;"/>
                     <div class="card-body">
                         <div class="card-title"><h5><center>Duo Magus(Set of 2)</center></h5></div>
@@ -213,7 +213,7 @@
             </div>
         </div>
         <!-- Row 5-->
-        <h3 style="padding-left: 15px; padding-top: 15px;" id="brush"><center> Brushes ></center></h3>
+        <h3 style="padding-left: 15px; padding-top: 15px;"><center> Brushes ></center></h3>
         <div class="row" style="padding-top: 20px">
             <div class="col-md-4">
                 <div class="card">
@@ -244,7 +244,7 @@
             </div>
         </div>
         <!-- Row 6-->
-        <div class="row" style="padding-top: 20px">
+        <div class="row" style="padding-top: 20px" id="brush">
             <div class="col-md-4">
                 <div class="card">
                     <img src="static/brush4.jpg" class="card-img-top" style="height: 300px; width: 150 px; padding: 15px;"/>
@@ -274,7 +274,7 @@
             </div>
         </div>
         <!--Row 7-->
-        <h3 style="padding-left: 15px; padding-top: 15px;" id="cutlery"><center>Cutlery ></center></h3>
+        <h3 style="padding-left: 15px; padding-top: 15px;"><center>Cutlery ></center></h3>
         <div class="row" style="padding-top: 20px">
             <div class="col-md-4">
                 <div class="card">
@@ -305,7 +305,7 @@
             </div>
         </div>
         <!--Row 8-->
-        <div class="row" style="padding-top: 20px">
+        <div class="row" style="padding-top: 20px" id="cutlery">
             <div class="col-md-4">
                 <div class="card">
                     <img src="static/thermos.jpg" class="card-img-top" style="height: 300px; width: 150 px; padding: 15px;"/>
